@@ -44,6 +44,7 @@ export default function ExpenseList({ data,onDelete }) {
             )}
           </tbody>
           <tfoot>
+            <tr>
             <td></td>
             <td></td>
             <td className="text-primary text-2xl">Total</td>
@@ -54,6 +55,7 @@ export default function ExpenseList({ data,onDelete }) {
                 0
               )}{' '}
             </td>
+              </tr>
           </tfoot>
         </table>
       </div>
